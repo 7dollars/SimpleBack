@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_help"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.wmk.whitepoint.Activity.HelpActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:text="使用前请开启相应权限"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView7"
+            android:layout_weight="0.07" />
+
+        <TextView
+            android:text="长按：拖动改变按键位置"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView12"
+            android:layout_weight="0.07" />
+
+        <TextView
+            android:text="轻点：返回"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView13"
+            android:layout_weight="0.07" />
+
+        <TextView
+            android:text="划动：选择功能。功能依次为截图、返回桌面、锁屏，啥都不做"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView14"
+            android:layout_weight="0.07" />
+
+        <TextView
+            android:text="注：小米、vivo等手机，请在安装时开启悬浮窗权限"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView15"
+            android:layout_weight="0.07" />
+
+        <TextView
+            android:text="随手写的，如有bug或者好的建议，请留言"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView17"
+            android:layout_weight="0.07" />
+
+        <TextView
+            android:text="卸载前请先去设置-安全-设备管理器取消激活！！！！！！！！不然无法卸载！"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView19"
+            android:layout_weight="0.07"
+            android:textColor="@color/colorAccent" />
+
+    </LinearLayout>
+</RelativeLayout>
